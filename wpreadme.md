@@ -8,6 +8,8 @@ Terraform - https://www.terraform.io/downloads.html
 
 AWS CLI - https://aws.amazon.com/cli/
 
+
+
 Inoltre è necessario avere:
 
 Un account AWS
