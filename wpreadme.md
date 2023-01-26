@@ -34,9 +34,9 @@ Un utente IAM con privilegi di amministrazione.
 
    - Seleziona l'utente che desideri utilizzare per creare le risorse AWS dal campo Nome utente.
 
-   - Selezionare la scheda Credenziali di sicurezza e fare clic su Crea chiavi di accesso.
+   - Seleziona la scheda Credenziali di sicurezza e fare clic su Crea chiavi di accesso.
    
-   - Copiare l'ID chiave di accesso e la chiave di accesso segreta e incollarli in un editor di testo a scelta.
+   - Copia l'ID chiave di accesso e la chiave di accesso segreta e incollarli in un editor di testo a scelta.
      Nota: Devi fare clic sul pulsante "Mostra" prima di copiare la chiave di accesso segreta.
 	 
 	 
