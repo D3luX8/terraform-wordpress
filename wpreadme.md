@@ -11,6 +11,7 @@ AWS CLI - https://aws.amazon.com/cli/
 Inoltre è necessario avere:
 
 Un account AWS
+
 Un utente IAM con privilegi di amministrazione.
   
 ## 1 - CONFIGURAZIONE INIZIALE
