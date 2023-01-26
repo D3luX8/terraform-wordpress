@@ -3,7 +3,9 @@
 ## Prerequisiti
 Questo progetto richiede che nel sistema operativo siano installati i seguenti file binari:
 
+
 Terraform - https://www.terraform.io/downloads.html
+
 AWS CLI - https://aws.amazon.com/cli/
 
 Inoltre è necessario avere:
