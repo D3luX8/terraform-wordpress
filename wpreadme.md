@@ -26,7 +26,7 @@ Un utente IAM con privilegi di amministrazione.
 ## 1.2 - Configurazione del profilo AWS
 
    - Vai alla console di gestione AWS e accedi con le tue credenziali AWS IAM: 
-     https://eu-west-1.console.aws.amazon.com/console/home?region=eu-west-1
+     https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
 
    - Una volta effettuato l'accesso, cerca il servizio IAM nella barra di ricerca in alto al centro e seleziona l'opzione del servizio IAM.
 
@@ -47,7 +47,7 @@ Un utente IAM con privilegi di amministrazione.
 	 
    - Alla voce AWS Access Key ID [None]: inserisci l'ID chiave di accesso ottenuta prima e premi invio.
    - Alla voce AWS Secret Access Key [None]: inserisci la chiave di accesso segreta ottenuta prima e premi invio.
-   - Alla voce Default region name [None]: digita eu-west-1
+   - Alla voce Default region name [None]: digita us-east-2
    - Alla voce Default output format [None]: digita table
    
    - Verifica che il tuo nuovo profilo AWS sia stato creato eseguendo il seguente comando:
@@ -93,7 +93,7 @@ Un utente IAM con privilegi di amministrazione.
    - Una volta ottenuto esito positivo alla fine dei passaggi della Sezione 2.3 , apri una nuova scheda nel tuo browser preferito
    
    - Vai alla console di gestione AWS e accedi con le tue credenziali AWS IAM: 
-     https://eu-west-1.console.aws.amazon.com/console/home?region=eu-west-1
+     https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
 	 
    - Nel menù sulla sinistra, alla voce Bilanciamento del carico, clicca su Sistemi di bilanciamento del carico
    
