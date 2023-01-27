@@ -75,7 +75,7 @@ Un utente IAM con privilegi di amministrazione.
 ## 2.2 - Controlli di configurazione
 
    - Dal terminale, esegui il comando seguente per pianificare e verificare la configurazione del progetto Terraform:
-     terraform plan --var-file=configuration/dev.tfvars
+     terraform plan --var-file=configuration/dev.tfvars --var-file=configuration/secret.tfvars
 	 
    - Terraform scorrerà la configurazione e verificherà che tutto sia a posto. Verrà prodotto l'output della configurazione
    
@@ -85,9 +85,10 @@ Un utente IAM con privilegi di amministrazione.
    Nota: Procedere solo se i controlli di configurazione della Sezione 2.2 hanno avuto esito positivo.
    
    - Dal terminale, esegui il comando seguente per applicare e avviare il progetto Terraform:
-     terraform apply --var-file=configuration/dev.tfvars
+     terraform apply --var-file=configuration/dev.tfvars --var-file=configuration/secret.tfvars
 	 
-   - Terraform elaborerà la configurazione inserendo automaticamente le variabili contenute nel file configuration/dev.tfvars e richiederà se si desidera procedere, con la seguente domanda: Do you want to perform these actions?
+   - Terraform elaborerà la configurazione inserendo automaticamente le variabili contenute nei file configuration/dev.tfvars e configuration/secret.tfvars e richiederà se si desidera procedere, con la seguente domanda: Do you want to perform these actions?
+     Nota: l'utilizzo del file secret.tfvars è finalizzato a criptare i dati sensibili del database
    
    - Digita yes e premi invio per continuare. Terraform procederà a creare le risorse in AWS e produrrà l'output man mano che procede
      Nota: Questo potrebbe richiedere del tempo, pazienta fin quando l'output non sarà completo.
