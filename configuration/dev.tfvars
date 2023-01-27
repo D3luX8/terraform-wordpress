@@ -4,13 +4,6 @@ vpc_values = {
   private_subnet_cidr_block = ["10.0.3.0/24", "10.0.4.0/24"]
 }
 
-ssm_values = {
-  db_password = "admin123"
-  db_name     = "tfdb"
-  db_username = "admin"
-}
-
-
 asg_values = {
   instance_ami         = "ami-0fe23c115c3ba9bac"
   keypair_name         = "wp-tf"
